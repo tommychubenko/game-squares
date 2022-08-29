@@ -1,16 +1,15 @@
+import { Game } from './Game';
+import { HoveredData } from './HoveredData';
+import { Level } from './Level';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="container">
+      <div>
+        <Level />
+        <Game />
+      </div>
+      <HoveredData />
     </div>
   );
 };
