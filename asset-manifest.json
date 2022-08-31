@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/star-navi-test-task/static/css/main.7acaea2f.css",
-    "main.js": "/star-navi-test-task/static/js/main.02e88cd1.js",
+    "main.css": "/star-navi-test-task/static/css/main.7e70e397.css",
+    "main.js": "/star-navi-test-task/static/js/main.6cf74bfd.js",
     "index.html": "/star-navi-test-task/index.html",
-    "main.7acaea2f.css.map": "/star-navi-test-task/static/css/main.7acaea2f.css.map",
-    "main.02e88cd1.js.map": "/star-navi-test-task/static/js/main.02e88cd1.js.map"
+    "main.7e70e397.css.map": "/star-navi-test-task/static/css/main.7e70e397.css.map",
+    "main.6cf74bfd.js.map": "/star-navi-test-task/static/js/main.6cf74bfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.02e88cd1.js"
+    "static/css/main.7e70e397.css",
+    "static/js/main.6cf74bfd.js"
   ]
 }
