@@ -1,0 +1,114 @@
+$boxColor: #5F93F8;
+$secondaryBoxColor: #FFFFFF;
+$accentColor: orange;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #212121;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+
+.container {
+   padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;}
+
+    .logo{
+        color: $accentColor;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .select_thumb{
+        margin-bottom: 20px;
+    }
+
+
+.play_box {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: $boxColor;
+    box-sizing: border-box;
+
+}
+
+.play_box--hovered {
+    background-color: $secondaryBoxColor;
+}
+
+
+.box_field {
+    display: grid;
+   
+}
+
+.hovered_thumb {   
+    height: 500px;
+
+    overflow-y: scroll;
+    float: inline-end;
+    clear: both;
+    &::-webkit-scrollbar {
+            width: 5px;
+        }
+    
+        &::-webkit-scrollbar-track {
+            background-color: #4d5257;
+            border-radius: 100px;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            border: 1px solid lightgray;            
+            background-color: #38404d;
+            border-left: 0;
+           border-right: 0;
+        }
+        &--main{
+    width: 200px;
+        }
+}
+
+.hovered_item{
+    background-color: $accentColor;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 3px;
+    border: 0;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.select{
+    &_level{
+        width: 150px;
+        height: 25px;
+
+        padding: 3px 5px;
+        border-radius: 5px;
+        // color: $accentColor;
+    }
+    &_btn{
+        width: 75px;
+        height: 25px;
+        background-color: $accentColor;
+
+        border-radius: 5px;
+        // border: 1px solid $secondaryBoxColor;
+    }
+}

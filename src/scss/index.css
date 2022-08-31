@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212121;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container {
+  padding: 30px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo {
+  color: orange;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.select_thumb {
+  margin-bottom: 20px;
+}
+
+.play_box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  background-color: #5F93F8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.play_box--hovered {
+  background-color: #FFFFFF;
+}
+
+.box_field {
+  display: -ms-grid;
+  display: grid;
+}
+
+.hovered_thumb {
+  height: 500px;
+  overflow-y: scroll;
+  float: inline-end;
+  clear: both;
+}
+
+.hovered_thumb::-webkit-scrollbar {
+  width: 5px;
+}
+
+.hovered_thumb::-webkit-scrollbar-track {
+  background-color: #4d5257;
+  border-radius: 100px;
+}
+
+.hovered_thumb::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  background-color: #38404d;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hovered_thumb--main {
+  width: 200px;
+}
+
+.hovered_item {
+  background-color: orange;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  padding: 3px;
+  border: 0;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.select_level {
+  width: 150px;
+  height: 25px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.select_btn {
+  width: 75px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=index.css.map */

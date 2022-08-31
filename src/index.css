@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+
 
 body {
   margin: 0;
@@ -12,4 +12,51 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  display: flex;
+
+
+  @media screen and (min-width: $mobile) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: $pc) {
+    width: 1200px;
+  }
+}
+.play_box{
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  background-color: #0067FF;
+  box-sizing: border-box;
+  
+}
+
+.play_box--hovered{
+  background-color: white;
+}
+
+
+.box_field{
+    display: grid;
+  
+}
+
+.hovered_thumb{
+  height: 500px;
+  width: 300px;
+  background-color: red;
+  overflow-y:scroll;
+  float:inline-end;
+  clear: both;
 }
