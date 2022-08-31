@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import { selectLevel } from './slice';
+import selectLevel from './slice';
 
-const store = configureStore({ reducer: selectLevel.reducer });
+const store = configureStore({ reducer: selectLevel });
 
 export default store;

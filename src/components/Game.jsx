@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setHovered, setUnHovered } from 'redux/slice';
+import { setHovered, setUnHovered } from '../Redux/slice';
 import { nanoid } from 'nanoid';
 
 export const Game = ({ newLevel }) => {

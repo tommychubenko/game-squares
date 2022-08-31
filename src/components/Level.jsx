@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { setNewLevel } from 'redux/slice';
+import { setNewLevel } from '../Redux/slice';
 import { getInfo } from './api';
 import { nanoid } from 'nanoid';
 

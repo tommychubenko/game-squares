@@ -1,7 +1,6 @@
-// import { getGameDetails } from './api';
 import { createSlice } from '@reduxjs/toolkit';
 
-export const selectLevel = createSlice({
+const selectLevel = createSlice({
   name: 'levels',
   initialState: { level: 5, boxes: [] },
   reducers: {
@@ -20,5 +19,7 @@ export const selectLevel = createSlice({
   },
   extraReducers: {},
 });
+
+export default selectLevel.reducer;
 
 export const { setHovered, setUnHovered, setNewLevel } = selectLevel.actions;
