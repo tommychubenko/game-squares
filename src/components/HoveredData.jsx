@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import { useRef, useEffect } from 'react';
+import { useEffect } from 'react';
 import { nanoid } from 'nanoid';
 
 export const HoveredData = () => {

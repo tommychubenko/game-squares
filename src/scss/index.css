@@ -38,6 +38,8 @@ code {
   background-color: #5F93F8;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .play_box--hovered {
@@ -50,7 +52,7 @@ code {
 }
 
 .hovered_thumb {
-  height: 500px;
+  height: 528px;
   overflow-y: scroll;
   float: inline-end;
   clear: both;
