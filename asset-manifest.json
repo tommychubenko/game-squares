@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/star-navi-test-task/static/css/main.7e70e397.css",
-    "main.js": "/star-navi-test-task/static/js/main.6cf74bfd.js",
-    "index.html": "/star-navi-test-task/index.html",
-    "main.7e70e397.css.map": "/star-navi-test-task/static/css/main.7e70e397.css.map",
-    "main.6cf74bfd.js.map": "/star-navi-test-task/static/js/main.6cf74bfd.js.map"
+    "main.css": "/game-squares/static/css/main.7e70e397.css",
+    "main.js": "/game-squares/static/js/main.6cf74bfd.js",
+    "index.html": "/game-squares/index.html",
+    "main.7e70e397.css.map": "/game-squares/static/css/main.7e70e397.css.map",
+    "main.6cf74bfd.js.map": "/game-squares/static/js/main.6cf74bfd.js.map"
   },
   "entrypoints": [
     "static/css/main.7e70e397.css",
